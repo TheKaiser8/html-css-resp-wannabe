@@ -127,7 +127,13 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
+        max-width: 900px; /* Aggiunta per provare a dare un po' di spaziatura laterale nelle viewport sopra i 900px */
+    }
+}
+ @media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
